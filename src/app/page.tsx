@@ -23,10 +23,12 @@ export default function Home(){
 
     <div className="flex px-24 flex-wrap gap-16 text-2xl xl:flex justify-center xl:justify-start">
     <button className="custom-btn btn-12"><span>Click !</span><span>Visit My Cv <IoDownloadOutline size={30}/></span></button>
+      <div className="flex gap-12">
       <FaLinkedin className="border border-[#00ff99] rounded-full p-2 text-[#00ff99] hover:transition-all	duration-500 hover:bg-[#00ff99] hover:text-black" size={50}/>      
       <FaInstagram className="border border-[#00ff99] rounded-full p-2 text-[#00ff99] hover:transition-all	duration-500 hover:bg-[#00ff99] hover:text-black"  size={50}/>
       <FaFacebook className="border border-[#00ff99] rounded-full p-2 text-[#00ff99] hover:transition-all	duration-500 hover:bg-[#00ff99] hover:text-black"  size={50}/>
       <FaGithub className="border border-[#00ff99] rounded-full p-2 text-[#00ff99] hover:transition-all	duration-500 hover:bg-[#00ff99] hover:text-black"  size={50}/>
+      </div>
     </div>
 
     <div className="flex flex-wrap justify-around items-center py-28 gap-10">

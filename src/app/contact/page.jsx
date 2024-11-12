@@ -29,9 +29,9 @@ export default function Contact(){
             </div>
                 </div>
          </div>
-            <div className="bg-[#27272C] container p-10 w-[100%] rounded xl:w-[50%]">
-            <p className="text-[#00FF99] text-5xl tracking-[5px] mb-10 font-bold">Let's work together</p>
-            <p className="tracking-[5px] leading-[30px]  mb-10 font-bold text-2xl">Reach out to start a conversation about your next project and see how we can work together to achieve your goals.</p>  
+            <div className="bg-[#27272C] container p-10 w-[20%] rounded xl:w-[50%]">
+            <p className="text-[#00FF99] text-4xl tracking-[3px] mb-5 font-bold">Let's work together</p>
+            <p className="tracking-widest leading-[40px] mb-10 font-bold text-2xl text-[#FFFFFF99]">Reach out to start a conversation about your next project and see how we can work together to achieve your goals.</p>  
             <div className="grid grid-cols-1 justify-center items-center gap-12 xl:grid xl:grid-cols-2">
                 <input type="text" className="px-5 py-5 w-[100%] xl:w-[80%] bg-[#1C1C22] rounded-lg text-2xl outline-none focus:outline-[#00ff99]" placeholder="First Name"/>
                 <input type="text" placeholder="Last Name" className="px-5 py-5 w-[100%] xl:w-[80%] bg-[#1C1C22] rounded-lg text-2xl outline-none focus:outline-[#00ff99]"/>
