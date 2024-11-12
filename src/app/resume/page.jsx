@@ -1,8 +1,9 @@
 "use client"
+import { ScrollArea } from "@/Components/ui/scroll-area"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/Components/ui/tabs"
 import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs } from "react-icons/fa"
 import {SiTailwindcss,SiNextdotjs} from "react-icons/si"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ScrollArea } from "@/components/ui/scroll-area"
+
 
 
 
