@@ -1,20 +1,23 @@
-"use client";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import Image from "next/image";
+"use client"
+import { usePathname } from "next/navigation"
+import Link from "next/link"
+import { CiMenuFries } from "react-icons/ci";
+import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import Nabeel1 from "@/Components/assets/NabeelLogo-02 (1).png";
-import {MobileNav} from "@/Components/MobileNav"
+import Image from "next/image";
 
-export function Header() {
-  const pathname = usePathname();
-
-  return (
-    <div className="container mx-auto">
-      <nav className="flex items-center py-12 xl:flex flex-row justify-between">
+export function MobileNav(){
+const pathname = usePathname()
+return (
+    <Sheet>
+    <SheetTrigger>
+        <CiMenuFries className="text-[32px] text-[#fe2054]"/>
+    </SheetTrigger>
+    <SheetContent className="flex flex-col justify-center items-center">
         <Link href="/">
-          <Image src={Nabeel1} width={250} alt="Portfolio" />
+          <Image src={Nabeel1} width={200} alt="Portfolio" />
         </Link>
-        <div className="hidden gap-6 flex-wrap justify-center py-10 items-center font-bold xl:flex xl:py-0">
+        <div className="flex flex-col gap-10">
           <Link className={`link ${pathname === "/"}`} href="/">
             <span className="hover:text-[#fe2054] hover:transition-all	duration-500">
               Home
@@ -40,17 +43,11 @@ export function Header() {
               Contact
             </span>
           </Link>
-          <Link href="/">
-            <button className="bg-[#fe2054] px-8 py-4 rounded-full text-white font-bold hidden hover:transition-all duration-700  xl:flex">
-              Hire Me
-            </button>
-          </Link>
         </div>
-        {/* mobile nav */}
-        <div className="xl:hidden">
-        <MobileNav />
-        </div>
-      </nav>
-    </div>
-  );
+        </SheetContent>
+    </Sheet>
+)
 }
+
+
+
