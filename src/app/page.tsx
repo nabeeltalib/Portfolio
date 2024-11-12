@@ -3,6 +3,7 @@ import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { IoDownloadOutline } from "react-icons/io5";
 import Image from 'next/image'
 import Mans from "@/Components/assets/Mans.png"
+import Typewriter from 'typewriter-effect'; 
 
 
 export default function Home(){
@@ -10,8 +11,16 @@ export default function Home(){
     <>
     <div className="flex flex-col py-16 px-24 xl:flex-row items-center justify-between">
     <div className="flex flex-col gap-6 text-center xl:text-left order-2 mt-6 xl:order-none">
-      <span className="text-2xl">Web Developer</span>
-      <span className="text-5xl">Hello I am</span>
+      <div className="text-3xl font-bold">
+    <Typewriter
+  options={{
+    strings: ['Full Stack Developer', "Graphic Designer", "WordPress Developer"],
+    autoStart: true,
+    loop: true,
+  }}
+/>
+      </div>
+<span className="text-5xl">Hello I am</span>
       <span className="text-[#00ff99] hover:text-white font-bold text-6xl hover:transition-all	duration-500">Muhammad Waleed</span>
       <span className="hover:text-[#00ff99] text-5xl hover:transition-all	duration-500">Zafar</span>
      <span className="tracking-widest max-w-[530px] leading-10 text-xl">I excel at crafting elegant digital experience and I am proficient in various programming language and technologies.</span>

@@ -13,30 +13,30 @@ export  function Header () {
             <Link href='/'>
             <h1 className="text-5xl">Na<span className="text-[#00ff99]">beel ::</span></h1>
           </Link>
-          <div className="flex gap-4 flex-wrap justify-center py-10 items-center text-2xl font-bold xl:flex xl:py-0">
-          <Link className={`link ${pathname === '/' ? 'active underline' : ''}`} href="/">
+          <div className="flex gap-6 flex-wrap justify-center py-10 items-center text-3xl font-bold xl:flex xl:py-0">
+          <Link className={`link ${pathname === '/'}`} href="/">
              <span className="hover:text-[#00ff99] hover:transition-all	duration-500">Home</span>
           </Link>
           <Link
-            className={`link ${pathname === '/services' ? 'active underline' : ''}`}
+            className={`link ${pathname === '/services'}`}
             href="/services"
           >
              <span className="hover:text-[#00ff99] hover:transition-all	duration-500">Services</span>
              </Link>
           <Link
-            className={`link ${pathname === '/work' ? 'active underline ' : ''}`}
+            className={`link ${pathname === '/work'}`}
             href="/work"
           >
              <span className="hover:text-[#00ff99] hover:transition-all	duration-500">Work</span>
              </Link>
           <Link
-            className={`link ${pathname === '/resume' ? 'active underline ' : ''}`}
+            className={`link ${pathname === '/resume'}`}
             href="/resume"
           >
              <span className="hover:text-[#00ff99] hover:transition-all	duration-500">Resume</span>
              </Link>
           <Link
-            className={`link ${pathname === '/contact' ? 'active underline ' : ''}`}
+            className={`link ${pathname === '/contact'}`}
             href="/contact"
           >
              <span className="hover:text-[#00ff99] hover:transition-all	duration-500">Contact</span>
