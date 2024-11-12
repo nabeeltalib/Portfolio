@@ -9,7 +9,7 @@ export  function Header () {
 
     return (
       <>
-        <nav className="flex flex-col items-center px-20 py-12 xl:flex-row justify-between">
+        <nav className="flex flex-col items-center px-[100px] py-12 xl:flex-row justify-between">
             <Link href='/'>
             <h1 className="text-5xl">Na<span className="text-[#00ff99]">beel ::</span></h1>
           </Link>
