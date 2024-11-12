@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import Nabeel from "@/Components/assets/NabeelLogo-01 (1).png";
 import Nabeel1 from "@/Components/assets/NabeelLogo-02 (1).png";
 
 export function Header() {
