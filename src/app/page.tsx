@@ -21,10 +21,8 @@ export default function Home(){
     </div>
     </div>
 
-    <div className="flex px-24 flex-wrap gap-10 text-2xl xl:flex justify-center xl:justify-start">
-      <button className="flex gap-2 tracking-widest border border-[#00ff99] rounded-full font-bold px-8 py-2 text-[#00ff99] hover:transition-all	duration-500 hover:bg-[#00ff99] hover:text-black">Visit My Cv
-       <IoDownloadOutline size={30}/>
-      </button>
+    <div className="flex px-24 flex-wrap gap-20 text-2xl xl:flex justify-center xl:justify-start">
+    <button className="custom-btn btn-12"><span>Click !</span><span>Visit My Cv <IoDownloadOutline size={30}/></span></button>
       <FaLinkedin className="border border-[#00ff99] rounded-full p-2 text-[#00ff99] hover:transition-all	duration-500 hover:bg-[#00ff99] hover:text-black" size={50}/>      
       <FaInstagram className="border border-[#00ff99] rounded-full p-2 text-[#00ff99] hover:transition-all	duration-500 hover:bg-[#00ff99] hover:text-black"  size={50}/>
       <FaFacebook className="border border-[#00ff99] rounded-full p-2 text-[#00ff99] hover:transition-all	duration-500 hover:bg-[#00ff99] hover:text-black"  size={50}/>
