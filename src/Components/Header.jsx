@@ -1,15 +1,11 @@
 "use client"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { useState } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { IoCloseCircleOutline } from "react-icons/io5";
 
 
 
 export  function Header () {
     const pathname = usePathname()
-    const [show, setShow] = useState(false)
 
     return (
       <>
