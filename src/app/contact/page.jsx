@@ -39,6 +39,7 @@ export default function Contact() {
             className="text-[#fe2054] bg-[#1c1c22] p-2 rounded-lg"
             size={60}
           />
+
           <div className="flex flex-col">
             <p className="text-[#FFFFFF99] text-2xl leading-[35px]">Address</p>
             <p className="text-2xl font-bold">Islamabad Capital Territory</p>

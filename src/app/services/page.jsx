@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <div className="container mx-auto">
       <div className="grid grid-cols-1 py-14 gap-10 xl:grid-cols-2 xl:gap-15">
-        <div className="flex flex-col bg-[#1c1c22] h-80 p-5 rounded-lg gap-8">
+        <div className="flex flex-col bg-[#1c1c22] py-5 p-5 rounded-lg gap-8">
           <div className="flex justify-between items-center group hover:text-[#fe2054] transition-all duration-50">
             <span className="font-bold text-5xl C">01</span>
             <FaArrowCircleRight

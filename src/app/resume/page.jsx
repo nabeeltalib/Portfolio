@@ -11,45 +11,7 @@ import {
 } from "react-icons/fa";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
-const about = {
-  title: "About Me",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur necessitatibus tempore nemo adipisci possimus.",
-  info: [
-    {
-      fieldName: "Name",
-      fieldValue: "like colman",
-    },
-    {
-      fieldName: "Phone",
-      fieldValue: "(+09090990)",
-    },
-    {
-      fieldName: "Experience",
-      fieldValue: "12 + years",
-    },
-    {
-      fieldName: "Skype",
-      fieldValue: "luke.01",
-    },
-    {
-      fieldName: "Nationality",
-      fieldValue: "Pakistani",
-    },
-    {
-      fieldName: "Email",
-      fieldValue: "luke@mail.com",
-    },
-    {
-      fieldName: "Freelance",
-      fieldValue: "Available",
-    },
-    {
-      fieldName: "languages",
-      fieldValue: "English, spanish",
-    },
-  ],
-};
+
 
 const experience = {
   icon: "/",
@@ -169,15 +131,55 @@ const skill = {
   ],
 };
 
+const about = {
+  title: "About Me",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur necessitatibus tempore nemo adipisci possimus.",
+  info: [
+    {
+      fieldName: "Name",
+      fieldValue: "like colman",
+    },
+    {
+      fieldName: "Phone",
+      fieldValue: "(+09090990)",
+    },
+    {
+      fieldName: "Experience",
+      fieldValue: "12 + years",
+    },
+    {
+      fieldName: "Skype",
+      fieldValue: "luke.01",
+    },
+    {
+      fieldName: "Nationality",
+      fieldValue: "Pakistani",
+    },
+    {
+      fieldName: "Email",
+      fieldValue: "luke@mail.com",
+    },
+    {
+      fieldName: "Freelance",
+      fieldValue: "Available",
+    },
+    {
+      fieldName: "languages",
+      fieldValue: "English, spanish",
+    },
+  ],
+};
+
 export default function Resume() {
   return (
-    <div className="min-h-[100vh] flex py-12">
+    <div className="min-h-[100vh] flex py-14">
       <div className="container mx-auto">
         <Tabs
-          defaultValue="experience"
+          defaultValue="about"
           className="flex flex-col py-32 xl:flex-row xl:py-0 items-center gap-[60px]"
         >
-          <TabsList className="bg-black flex-col w-full max-w-[450px] mx-auto xl:mx-0 gap-6">
+          <TabsList className="bg-black w-full max-w-[450px] flex flex-col mx-auto xl:mx-0 xl:flex-col gap-6">
             <TabsTrigger
               value="experience"
               className="w-full bg-[#27272c] p-6 text-xl rounded-md font-bold"
@@ -243,7 +245,7 @@ export default function Resume() {
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                   {education.description}
                 </p>
-                <ScrollArea className="h-[400px]">
+                <ScrollArea className="h-[400px] overflow-auto">
                   <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                     {education.items.map((item, index) => {
                       return (
