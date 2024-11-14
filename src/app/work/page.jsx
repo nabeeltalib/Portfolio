@@ -86,39 +86,39 @@ export default function Work() {
   return (
     <div className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0">
       <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row xl:gap-[30px]">
+        <div className="flex flex-col  xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
-            <div className="flex flex-col gap-[30px] h-[50%]">
+            <div className="flex flex-col px-10  gap-[30px] h-[50%] xl:px-0">
               {/* outline num */}
-              <div className="text-8xl leading-none font-extrabold text-outline text-white">
+              <p className="text-xl xl:text-8xl leading-none font-extrabold text-outline text-white">
                 {projects.num}
-              </div>
+              </p>
               {/* projetc category */}
               <h2
-                className="text-[42px] leading-none font-bold text-white group-hover:text-[#fe2054]
+                className="text-3xl xl:text-[42px] leading-none font-bold text-white group-hover:text-[#fe2054]
                         transition-all duration-500 capitalize
                         "
               >
                 {projects.category} project
               </h2>
               {/* project desc */}
-              <p className="text-white/60 leading-[40px] text-2xl">
+              <p className="text-white/60 leading-[40px] text-xl xl:text-2xl">
                 {projects.description}
               </p>
-              <ul className="flex flex-wrap justify-center gap-4 xl:flex xl:justify-start">
+              <ul className="flex flex-wrap gap-4 xl:flex">
                 {projects.stack.map((item, index) => {
                   return (
-                    <li key={index} className="text-5xl text-[#fe2054]">
+                    <p key={index} className="text-xl xl:text-5xl text-[#fe2054]">
                       {item.name}
                       {index !== projects.stack.length - 1 && ","}
-                    </li>
+                    </p>
                   );
                 })}
               </ul>
               {/* border */}
               <div className="border border-white/20"></div>
               {/* button */}
-              <div className="flex gap-8">
+              <div className="flex gap-8 justify-center xl:justify-start">
                 <Link href="">
                   <BsArrowUpRight
                     className="bg-white/5 rounded-full p-2"

@@ -4,25 +4,42 @@
 
 @layer base {
 
-  body { 
+  body{
+    
+  }
+ h1{
+  @apply font-secondary
+ }
+ h2{
+  @apply font-secondary
+ }
+ span{
+  @apply font-primary
+ }
+ p{
+  @apply font-primary
+ }
 
-   }
-   h1{
-    @apply text-[48px] xl:text-[80px] leading-[1.1]  font-semibold
-   }
-   h2{
-    @apply text-[36px] xl:text-[48px] leading-[1.1]  font-semibold
-   }
-   h3{
-    @apply text-[20px] xl:text-[24px] leading-[1.1]  font-semibold
-   }
+ .Pics{
+  animation-name: img;
+  animation-duration: 5s;
+  animation-iteration-count:infinite;
+ }
+
+ @keyframes img {
+  50%{
+      transform: scale(1.1);
+  }
+  100%{
+      transform: scale(1);
+  }
+}
   .btn-12{
   position: relative;
-  right: 20px;
   bottom: 20px;
   border:none;
   box-shadow: none;
-  width: 130px;
+  width: 220px;
   height: 40px;
   line-height: 42px;
   -webkit-perspective: 230px;
@@ -30,10 +47,10 @@
 }
 .btn-12 span {
 /* background-color: #fe2054; */
-background-color: #fe2054;
-  display: block;
+  background-color: #fe2054;
+  /* display: block; */
   position: absolute;
-  width: 200px;
+  width: 180px;
   height: 50px;
   /* box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
    7px 7px 20px 0px rgba(0,0,0,.1),

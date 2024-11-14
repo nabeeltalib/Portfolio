@@ -9,7 +9,11 @@ const config: Config = {
   ],
   theme: {
   	extend: {
-  		colors: {
+		
+		animation: {
+			'bounce': 'bounce 1s infinite',
+		  },
+		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -55,7 +59,11 @@ const config: Config = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		  fontFamily:{
+			primary: 'var(--font-barlow-condensed)',
+			secondary: 'var(--font-raleway)'
+			},
   	}
   },
   plugins: [require("tailwindcss-animate")],

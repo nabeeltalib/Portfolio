@@ -1,106 +1,106 @@
 "use client";
-import { FaArrowCircleRight } from "react-icons/fa";
+import { FiArrowDownRight } from "react-icons/fi";
 
 export default function Services() {
   return (
     <div className="container mx-auto">
       <div className="grid grid-cols-1 py-14 gap-10 xl:grid-cols-2 xl:gap-15">
-        <div className="flex flex-col bg-[#1c1c22] py-5 p-5 rounded-lg gap-8">
-          <div className="flex justify-between items-center group hover:text-[#fe2054] transition-all duration-50">
-            <span className="font-bold text-5xl C">01</span>
-            <FaArrowCircleRight
+      <div className="flex flex-col bg-[#1c1c22] group p-5 py-5 rounded-lg gap-8">
+          <div className="flex justify-between items-center group-hover:text-[#fe2054] transition-all duration-50">
+            <span className="font-bold text-5xl transition-all duration-500">01</span>
+            <FiArrowDownRight
               size={50}
-              className="hover:-rotate-45 transition duration-700 ease-in-out"
+              className="group-hover:-rotate-45 group-hover:bg-[#fe2054] transition-all duration-500 rounded-full bg-white text-black"
             />
           </div>
-          <span className="text-3xl font-bold hover:text-[#fe2054] transition duration-700 ease-in-out">
+          <h1 className="text-2xl font-bold text-[#fe2054] transition duration-700 ease-in-out xl:text-3xl">
             WordPress Development
-          </span>
+          </h1>
           <span className="text-white/80 tracking-widest leading-[40px]">
-            Custom WordPress solutions with tailored themes and plugins for
-            enhanced website functionality and performance.
+            Crafting intuitive interfaces for enhanced user engagement and
+            satisfaction through seamless design and user-centric experiences.
           </span>
           <span className="border border-cyan-100"></span>
         </div>
-        <div className="flex flex-col bg-[#1c1c22]  p-5 py-5 rounded-lg gap-8">
-          <div className="flex justify-between items-center group hover:text-[#fe2054] transition-all duration-50">
-            <span className="font-bold text-5xl transition duration-700 ease-in-out">02</span>
-            <FaArrowCircleRight
+        <div className="flex flex-col bg-[#1c1c22] group p-5 py-5 rounded-lg gap-8">
+          <div className="flex justify-between items-center group-hover:text-[#fe2054] transition-all duration-50">
+            <span className="font-bold text-5xl transition-all duration-500">02</span>
+            <FiArrowDownRight
               size={50}
-              className="hover:-rotate-45 transition duration-500 ease-in-out"
+              className="group-hover:-rotate-45 group-hover:bg-[#fe2054] transition-all duration-500 rounded-full bg-white text-black"
             />
           </div>
-          <span className="text-3xl font-bold hover:text-[#fe2054] transition duration-700 ease-in-out">
+          <h1 className="text-2xl font-bold text-[#fe2054] transition duration-700 ease-in-out xl:text-3xl">
             Shopify Development
-          </span>
+          </h1>
           <span className="text-white/80 tracking-widest leading-[40px]">
-            Expert Shopify development to create and customize high-converting
-            e-commerce stores tailored to your business needs.
+            Crafting intuitive interfaces for enhanced user engagement and
+            satisfaction through seamless design and user-centric experiences.
           </span>
           <span className="border border-cyan-100"></span>
         </div>
-        <div className="flex flex-col bg-[#1c1c22]  p-5 py-5 rounded-lg gap-8">
-          <div className="flex justify-between items-center group hover:text-[#fe2054] transition-all duration-50">
-            <span className="font-bold text-5xl transition duration-700 ease-in-out">03</span>
-            <FaArrowCircleRight
+        <div className="flex flex-col bg-[#1c1c22] group p-5 py-5 rounded-lg gap-8">
+          <div className="flex justify-between items-center group-hover:text-[#fe2054] transition-all duration-50">
+            <span className="font-bold text-5xl transition-all duration-500">03</span>
+            <FiArrowDownRight
               size={50}
-              className="hover:-rotate-45 transition duration-700 ease-in-out"
+              className="group-hover:-rotate-45 group-hover:bg-[#fe2054] transition-all duration-500 rounded-full bg-white text-black"
             />
           </div>
-          <span className="text-3xl font-bold hover:text-[#fe2054] transition duration-700 ease-in-out">
+          <h1 className="text-2xl font-bold text-[#fe2054] transition duration-700 ease-in-out xl:text-3xl">
             Full Stack Development
-          </span>
+          </h1>
           <span className="text-white/80 tracking-widest leading-[40px]">
-            Crafting responsive, interactive websites & Mobile Apps using
-            Next.js, React.js, React-Native and modern frameworks.
+            Crafting intuitive interfaces for enhanced user engagement and
+            satisfaction through seamless design and user-centric experiences.
           </span>
           <span className="border border-cyan-100"></span>
         </div>
-        <div className="flex flex-col bg-[#1c1c22]  p-5 py-5 rounded-lg gap-8">
-          <div className="flex justify-between items-center group hover:text-[#fe2054] transition-all duration-50">
-            <span className="font-bold text-5xl transition duration-700 ease-in-out">04</span>
-            <FaArrowCircleRight
+        <div className="flex flex-col bg-[#1c1c22] group p-5 py-5 rounded-lg gap-8">
+          <div className="flex justify-between items-center group-hover:text-[#fe2054] transition-all duration-50">
+            <span className="font-bold text-5xl transition-all duration-500">04</span>
+            <FiArrowDownRight
               size={50}
-              className="hover:-rotate-45 transition duration-700 ease-in-out"
+              className="group-hover:-rotate-45 group-hover:bg-[#fe2054] transition-all duration-500 rounded-full bg-white text-black"
             />
           </div>
-          <span className="text-3xl font-bold hover:text-[#fe2054] transition duration-700 ease-in-out">
-            E-commerce Development
-          </span>
-          <span className="text-white/80 tracking-widest leading-[40px]">
-            Designing and developing bespoke e-commerce stores using WooCommerce
-            and Shopify for optimal user experience and business growth.
-          </span>
-          <span className="border border-cyan-100"></span>
-        </div>
-        <div className="flex flex-col bg-[#1c1c22]  p-5 py-5 rounded-lg gap-8">
-          <div className="flex justify-between items-center group hover:text-[#fe2054] transition-all duration-50">
-            <span className="font-bold text-5xl transition duration-700 ease-in-out">05</span>
-            <FaArrowCircleRight
-              size={50}
-              className="hover:-rotate-45 transition duration-700 ease-in-out"
-            />
-          </div>
-          <span className="text-3xl font-bold hover:text-[#fe2054] transition duration-700 ease-in-out">
+          <h1 className="text-2xl font-bold text-[#fe2054] transition duration-700 ease-in-out xl:text-3xl">
             Website Maintenance
-          </span>
+          </h1>
           <span className="text-white/80 tracking-widest leading-[40px]">
-            Comprehensive maintenance and technical support ensuring your
-            website runs smoothly with timely updates and troubleshooting.
+            Crafting intuitive interfaces for enhanced user engagement and
+            satisfaction through seamless design and user-centric experiences.
           </span>
           <span className="border border-cyan-100"></span>
         </div>
-        <div className="flex flex-col bg-[#1c1c22]  p-5 py-5 rounded-lg gap-8">
-          <div className="flex justify-between items-center group hover:text-[#fe2054] transition-all duration-50">
-            <span className="font-bold text-5xl transition duration-700 ease-in-out">06</span>
-            <FaArrowCircleRight
+        <div className="flex flex-col bg-[#1c1c22] group p-5 py-5 rounded-lg gap-8">
+          <div className="flex justify-between items-center group-hover:text-[#fe2054] transition-all duration-50">
+            <span className="font-bold text-5xl transition-all duration-500">05</span>
+            <FiArrowDownRight
               size={50}
-              className="hover:-rotate-45 transition duration-700 ease-in-out"
+              className="group-hover:-rotate-45 group-hover:bg-[#fe2054] transition-all duration-500 rounded-full bg-white text-black"
             />
           </div>
-          <span className="text-3xl font-bold hover:text-[#fe2054] transition duration-700 ease-in-out">
-            UI/UX Design
+          <h1 className="text-2xl font-bold text-[#fe2054] transition duration-700 ease-in-out xl:text-3xl">
+            E-commerce
+          </h1>
+          <span className="text-white/80 tracking-widest leading-[40px]">
+            Crafting intuitive interfaces for enhanced user engagement and
+            satisfaction through seamless design and user-centric experiences.
           </span>
+          <span className="border border-cyan-100"></span>
+        </div>
+        <div className="flex flex-col bg-[#1c1c22] group p-5 py-5 rounded-lg gap-8">
+          <div className="flex justify-between items-center group-hover:text-[#fe2054] transition-all duration-50">
+            <span className="font-bold text-5xl transition-all duration-500">06</span>
+            <FiArrowDownRight
+              size={50}
+              className="group-hover:-rotate-45 group-hover:bg-[#fe2054] transition-all duration-500 rounded-full bg-white text-black"
+            />
+          </div>
+          <h1 className="text-2xl font-bold text-[#fe2054] transition duration-700 ease-in-out xl:text-3xl">
+            UI/UX Design
+          </h1>
           <span className="text-white/80 tracking-widest leading-[40px]">
             Crafting intuitive interfaces for enhanced user engagement and
             satisfaction through seamless design and user-centric experiences.

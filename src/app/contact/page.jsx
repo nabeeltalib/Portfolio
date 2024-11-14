@@ -55,15 +55,13 @@ export default function Contact() {
           Reach out to start a conversation about your next project and see how
           we can work together to achieve your goals.
         </p>
-<div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Input placeholder="First Name" className="py-6 bg-[#1C1C22]"/>
-          <Input placeholder="Last Name" className="py-6 bg-[#1C1C22]"/>
-          <Input placeholder="Email Address" className="py-6 bg-[#1C1C22]"/>
-          <Input placeholder="Phone Number" className="py-6 bg-[#1C1C22]"/>
-        </div>
+          <Input placeholder="Full Name" type="text" className="py-6 bg-[#1C1C22]"/>
+          <Input placeholder="Email Address" type="email" className="py-6 bg-[#1C1C22]"/>
+          <Input placeholder="Phone Number" type='number' className="py-6 bg-[#1C1C22]"/>
     <Select>
-  <SelectTrigger className="w-full">
+  <SelectTrigger>
     <SelectValue placeholder="Select A service" />
   </SelectTrigger>
   <SelectContent>
@@ -78,6 +76,7 @@ export default function Contact() {
     </SelectGroup>
   </SelectContent>
 </Select>
+        </div>
 <Textarea className="h-[200px]" placeholder="Type Your Message Here....."/>
 <Button size="lg" className="max-w-40">Send Message</Button>
 </div>
